@@ -1,0 +1,10 @@
+/storage/*.key
+/vendor
+/.idea
+.env
+/cache
+/nbproject
+/storage
+/vendor/*
+/bootstrap/cache/
+composer.lock
