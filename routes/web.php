@@ -21,3 +21,5 @@ Route::get('login', function () {
 });
 
 Route::get('show_create_users','App\Http\Controllers\userDetailsController@showCreateUsers');
+
+Route::get('pdf_view','App\Http\Controllers\userDetailsController@pdfConverter');

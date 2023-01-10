@@ -90,4 +90,9 @@ class userDetailsController extends Controller
         $data['message'] = 'User created successful.';
         return $data;
     }
+
+    function pdfConverter()
+    {
+        return view('ifsageement');
+    }
 }
